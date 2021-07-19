@@ -1,9 +1,13 @@
+a {
+	color: #990033;	
+}
+
 body {
-	color: black;
 	background: #ffebcc;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	color: black;
+	font: 1.2em sans-serif;
+	max-width: 60rem;
+	margin: auto;
 }
 
 footer {
@@ -19,8 +23,17 @@ header {
 	display: block;	
 }
 
-.site-heading {
-	display: flex;
+.heading {
+	text-align: center;
+}
+
+.links {
+	text-align: center;
+	width: 100%;
+}
+
+.links a {
+	padding: 0.3em;
 }
 
 .site-heading h1 {
@@ -38,7 +51,7 @@ nav {
 }
 
 .site-main-menu {
-	display: flex;
+	text-align: center;
 }
 
 .site-main-menu li {
