@@ -8,10 +8,11 @@ body {
 	font: 1.2em sans-serif;
 	max-width: 60rem;
 	margin: auto;
+	padding: 0.5em;
 }
 
 footer {
-	position: fixed;
+	text-align: center;
 	margin-bottom: 0px;
 }
 
@@ -34,6 +35,11 @@ header {
 
 .links a {
 	padding: 0.3em;
+}
+
+.links img {
+	width: 2.5em;
+	height: 2.5em;
 }
 
 .site-heading h1 {
