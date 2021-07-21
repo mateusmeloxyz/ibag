@@ -25,6 +25,16 @@ header {
 	display: block;	
 }
 
+.audio-item {
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.audio-item p{
+	flex-grow: 1;
+}
+
 .heading {
 	text-align: center;
 }
