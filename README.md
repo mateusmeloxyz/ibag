@@ -5,6 +5,9 @@ My local church website
 
 * Add sermons on demand
 * Generate content outside of main header and footer 
-* Social links
+* ~Social links~
 * History
 * Psalms
+* ~Retiros~
+* blog system
+* email server
