@@ -11,3 +11,9 @@ My local church website
 * ~Retiros~
 * blog system
 * email server
+* rss feed
+* donation links
+
+## Contribute
+
+Feel free to solve any problems you see and to add new features. You can also [email me](mailto:mateusmelo1080p@protonmail.com) with any sugestions you may have.
