@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Script taken from Brodie's website repo:
+# https://github.com/BrodieRobertson/BrodiesWebsite
+
 from os import listdir
 
 headerPath = "./header.html"
