@@ -4,12 +4,17 @@
 
 from os import listdir
 
+headPath = "./head.html"
 headerPath = "./header.html"
 footerPath = "./footer.html"
 source = "./source"
 output = "./output"
 files = listdir(source)
 
+headData = ""
+with open(headPath) as headFile:
+    for line in headFile:
+        headData += line
 headerData = ""
 with open(headerPath) as headerFile:
     for line in headerFile:
@@ -26,7 +31,7 @@ for inputPath in files:
         with open(outputPath, "wt") as outputFile:
             for line in inputFile:
                 if '<!--HEAD-->' in line:
-                    outputFile.write(line.replace('<!--HEAD-->', headerData))
+                    outputFile.write(line.replace('<!--HEAD-->', headData))
                 elif '<!--HEADER-->' in line:
                     outputFile.write(line.replace('<!--HEADER-->', headerData))
                 elif '<!--FOOTER-->' in line:
