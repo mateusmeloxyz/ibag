@@ -1,12 +1,12 @@
 # ibag
-My local church website
+[My local church website](https://ibagrecife.xyz)
 
 ## How to generate html
 
 1. Edit html content inside **source**
 1. Run replace.py to generate html **output**
 1. If needed, edit styles inside **output**
-1. Copy **output** content to VPS website folder using **rsync**
+1. Copy **output** content to your VPS website using **rsync**
 
 ## To do
 
@@ -23,7 +23,7 @@ My local church website
 
 ## Contribute
 
-Feel free to solve any problems you see and to add new features. You can also [email me](mailto:mateusmelo1080p@protonmail.com) with any sugestions you may have.
+Feel free to solve any problems you see and to add new features. You can also open issues to leave sugestions or to report bugs. [Email me](mailto:mateusmelo1080p@protonmail.com) with any sugestions you may have.
 
 ## Python script
 
