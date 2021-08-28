@@ -11,6 +11,8 @@ source = "./source"
 output = "./output"
 files = listdir(source)
 
+print(files)
+
 headData = ""
 with open(headPath) as headFile:
     for line in headFile:

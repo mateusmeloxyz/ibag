@@ -1,0 +1,110 @@
+a {
+	color: #880f0f;	
+}
+
+body {
+	font-size: 1.2em;
+	max-width: 60rem;
+	margin: auto;
+	padding: 0.5em;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 3.5em;
+}
+
+html {
+	min-height: 100%;
+	background-image: url("./img/re05.jpg");
+	background-color: #003a4a;
+	background-repeat: no-repeat;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+header {
+	display: block;	
+}
+
+hr {
+	color: #880f0f;
+}
+
+.player{
+	max-width: 35rem;
+    width: 100%
+}
+
+.box-wrapper {
+    border: .15em solid #880f0f;
+}
+
+.body-wrapper {
+    background-color: rgb(255,250,213,0.87);
+    border-radius: 2em;
+    padding: 2em;
+}
+.text-wrapper{
+	margin: auto;
+	max-width: 50rem;
+}
+
+.heading {
+	text-align: center;
+}
+
+.links {
+	text-align: center;
+	width: 100%;
+}
+
+.img-links {
+	text-align: center;
+	width: 100%;
+}
+
+.links a {
+    display: inline-block;
+    background: rgb(255,250,213,0.87);
+    border-radius: 0.5em;
+    padding: 0.3em;
+    text-decoration: none;
+    margin: 0.5em 0.25em 0.5em 0.25em;
+}
+
+.img-links img {
+	width: 2.5em;
+	height: 2.5em;
+    margin: 0.5em 0.25em 0.5em 0.25em;
+}
+
+.img-links a {
+	width: 2.5em;
+	height: 2.5em;
+}
+
+.site-heading h1 {
+	margin-left: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.main-logo {
+	width: 200px;	
+}
+
+nav {
+	display: block;
+}
+
+.audio-item{
+	text-align: center;
+}
+
+.audio-item p{
+	text-align: left;
+}
