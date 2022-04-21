@@ -1,5 +1,5 @@
 a {
-	color: #880f0f;	
+	color: #880f0f;
 }
 
 body {
@@ -27,11 +27,15 @@ h1, h2{
 }
 
 header {
-	display: block;	
+	display: block;
 }
 
 hr {
 	color: #880f0f;
+}
+
+.center-text {
+	text-align: center;
 }
 
 .player{
@@ -94,7 +98,7 @@ hr {
 }
 
 .main-logo {
-	width: 200px;	
+	width: 200px;
 }
 
 nav {
